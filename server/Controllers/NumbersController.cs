@@ -21,7 +21,7 @@ namespace server.Controllers
         [HttpPost("add")]
         public IActionResult AddNumbers([FromBody] int[] numbers)
         {
-            LogRequest("add", numbers); // Log the request
+            LogRequest("server action: ADD", numbers); // Log the request
             if (numbers == null || numbers.Length == 0)
             {
                 return BadRequest("No numbers provided.");
@@ -34,7 +34,7 @@ namespace server.Controllers
         [HttpPost("average")]
         public IActionResult CalculateAverage([FromBody] int[] numbers)
         {
-            LogRequest("average", numbers); // Log the request
+            LogRequest("server action: AVERAGE", numbers); // Log the request
             if (numbers == null || numbers.Length == 0)
             {
                 return BadRequest("No numbers provided.");
@@ -47,7 +47,7 @@ namespace server.Controllers
         [HttpPost("lowest")]
         public IActionResult FindLowest([FromBody] int[] numbers)
         {
-            LogRequest("lowest", numbers); // Log the request
+            LogRequest("server action: FIND LOWEST", numbers); // Log the request
             if (numbers == null || numbers.Length == 0)
             {
                 return BadRequest("No numbers provided.");
@@ -60,7 +60,7 @@ namespace server.Controllers
         [HttpPost("highest")]
         public IActionResult FindHighest([FromBody] int[] numbers)
         {
-            LogRequest("highest", numbers); // Log the request
+            LogRequest("server action: FIND HIGHEST", numbers); // Log the request
             if (numbers == null || numbers.Length == 0)
             {
                 return BadRequest("No numbers provided.");
@@ -73,7 +73,7 @@ namespace server.Controllers
         [HttpPost("difference")]
         public IActionResult CalculateDifference([FromBody] int[] numbers)
         {
-            LogRequest("difference", numbers); // Log the request
+            LogRequest("server action: FIND DIFFERENCE", numbers); // Log the request
             if (numbers == null || numbers.Length == 0)
             {
                 return BadRequest("No numbers provided.");

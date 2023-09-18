@@ -1035,25 +1035,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/josephlarrivy/.nuget/packages/": {}
+    "C:\\Users\\jlarrivy\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/josephlarrivy/software-engineering/projects-for-job-applications/drcc-app/server/server.csproj",
+      "projectUniqueName": "P:\\other-code\\drcc-coding-task\\server\\server.csproj",
       "projectName": "server",
-      "projectPath": "/Users/josephlarrivy/software-engineering/projects-for-job-applications/drcc-app/server/server.csproj",
-      "packagesPath": "/Users/josephlarrivy/.nuget/packages/",
-      "outputPath": "/Users/josephlarrivy/software-engineering/projects-for-job-applications/drcc-app/server/obj/",
+      "projectPath": "P:\\other-code\\drcc-coding-task\\server\\server.csproj",
+      "packagesPath": "C:\\Users\\jlarrivy\\.nuget\\packages\\",
+      "outputPath": "P:\\other-code\\drcc-coding-task\\server\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/josephlarrivy/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\jlarrivy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1104,7 +1110,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
