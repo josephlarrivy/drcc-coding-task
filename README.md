@@ -9,6 +9,7 @@ This project demonstrates a full-stack application integrating React for the fro
 Frontend:
 ```
 cd client
+npm install
 npm start
 ```
 
