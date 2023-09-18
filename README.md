@@ -6,14 +6,14 @@ This project demonstrates a full-stack application integrating React for the fro
 2. .NET Core SDK should be installed to run the C# backend.
 
 ### Running the application
-Frontend:
+Run the frontend in a terminal:
 ```
 cd client
 npm install
 npm start
 ```
 
-Backend:
+Run the backend in a terminal:
 ```
 cd server
 dotnet run
